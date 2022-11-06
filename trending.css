@@ -1,0 +1,55 @@
+#one>div>object{
+    width: 20%;
+}
+#one>div{
+    /* border: 1px solid black; */
+    width: 40%;
+  
+}
+#one>div+div{
+    width: 60%;
+    margin: auto;
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-left: 10px;
+    display: flex;
+    gap: 50px;
+}
+#container>a>div{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    gap: 30px;
+    margin-top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+#container>a>div>img{
+    height: 230px;
+    width: 20%;
+}
+#container>a>div>h3{
+    margin-left: 30px;
+}
+#container>a>div>h3:hover{
+    font-size: 18px;
+}
+#one{
+    display: flex;
+    /* border: 1px solid black; */
+    position: sticky;
+    top: 0;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+
+    /* justify-content: space-between; */
+} 
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
